@@ -22,13 +22,13 @@ app.use(express.static(publicDirectryPath))
 app.get("", (req, res) => {
     res.render('index', {
         'title': "weather app",
-        'name': "andrew"
+        'name': "Rishabh Singh"
     })
 })
 app.get("/about", (req, res) => {
     res.render('about', {
         'title': "About section",
-        'name': "rishabh"
+        'name': "Rishabh Singh"
     })
 })
 
@@ -36,7 +36,7 @@ app.get("/help", (req, res) => {
     res.render('help', {
         helpText: 'This is some helpful text.',
         title: 'Help',
-        name: 'Andrew Mead'
+        name: 'Rishabh Singh'
     })
 })
 
